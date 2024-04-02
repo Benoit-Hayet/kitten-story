@@ -17,4 +17,10 @@ createKitten = this.formBuilder.group({
   birthday:[''],
   picture:[''],
 })
+
+kittenCollection = [''];
+
+onSubmit () {
+console.log(this.createKitten.value)
+}
 }
